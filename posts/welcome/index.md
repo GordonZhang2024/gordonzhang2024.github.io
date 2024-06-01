@@ -11,7 +11,7 @@
 
 # Welcome!
 ## About me
-- [My website](https://gordonzhang.pythonanywhere.com/)
+- [My main website](https://gordonzhang.pythonanywhere.com/)
 
 I'm a junior full-stack developer.
 
