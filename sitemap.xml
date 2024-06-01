@@ -7,15 +7,31 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://gordonzhang2024.github.io/</loc>
-  <lastmod>2024-06-01T13:21:00Z</lastmod>
+  <lastmod>2024-06-01T23:21:00Z</lastmod>
  </url>
  <url>
   <loc>https://gordonzhang2024.github.io/2012/</loc>
   <lastmod>2024-06-01T13:21:00Z</lastmod>
  </url>
  <url>
+  <loc>https://gordonzhang2024.github.io/2024/</loc>
+  <lastmod>2024-06-01T23:21:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://gordonzhang2024.github.io/archive.html</loc>
-  <lastmod>2024-06-01T13:21:00Z</lastmod>
+  <lastmod>2024-06-01T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://gordonzhang2024.github.io/authors/</loc>
+  <lastmod>2024-06-01T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://gordonzhang2024.github.io/authors/gordon-zhang/</loc>
+  <lastmod>2024-06-01T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://gordonzhang2024.github.io/authors/roberto-alsina/</loc>
+  <lastmod>2024-06-01T23:21:00Z</lastmod>
  </url>
  <url>
   <loc>https://gordonzhang2024.github.io/categories/</loc>
@@ -59,7 +75,7 @@
  </url>
  <url>
   <loc>https://gordonzhang2024.github.io/listings/hello.py.html</loc>
-  <lastmod>2024-06-01T13:21:00Z</lastmod>
+  <lastmod>2024-06-01T23:21:00Z</lastmod>
  </url>
  <url>
   <loc>https://gordonzhang2024.github.io/pages/about-nikola/</loc>
@@ -120,5 +136,9 @@
  <url>
   <loc>https://gordonzhang2024.github.io/posts/welcome-to-nikola/</loc>
   <lastmod>2024-06-01T13:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://gordonzhang2024.github.io/posts/welcome/</loc>
+  <lastmod>2024-06-01T23:21:00Z</lastmod>
  </url>
 </urlset>
