@@ -6,40 +6,12 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>https://gordonzhang2024.github.io/authors/gordon-zhang.xml</loc>
-  <lastmod>2024-06-01T23:21:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://gordonzhang2024.github.io/authors/roberto-alsina.xml</loc>
-  <lastmod>2024-06-01T23:21:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://gordonzhang2024.github.io/categories/blog.xml</loc>
-  <lastmod>2024-06-01T13:22:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://gordonzhang2024.github.io/categories/cat_nikola.xml</loc>
-  <lastmod>2024-06-01T13:21:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://gordonzhang2024.github.io/categories/demo.xml</loc>
-  <lastmod>2024-06-01T13:22:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://gordonzhang2024.github.io/categories/nikola.xml</loc>
-  <lastmod>2024-06-01T13:21:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://gordonzhang2024.github.io/categories/python.xml</loc>
-  <lastmod>2024-06-01T13:21:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>https://gordonzhang2024.github.io/galleries/demo/rss.xml</loc>
-  <lastmod>2024-06-01T23:25:00Z</lastmod>
+  <lastmod>2024-06-01T23:51:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://gordonzhang2024.github.io/galleries/rss.xml</loc>
-  <lastmod>2024-06-01T23:25:00Z</lastmod>
+  <lastmod>2024-06-01T23:51:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://gordonzhang2024.github.io/rss.xml</loc>
@@ -47,6 +19,6 @@
  </sitemap>
  <sitemap>
   <loc>https://gordonzhang2024.github.io/sitemap.xml</loc>
-  <lastmod>2024-06-01T23:25:00Z</lastmod>
+  <lastmod>2024-06-01T23:51:00Z</lastmod>
  </sitemap>
 </sitemapindex>
