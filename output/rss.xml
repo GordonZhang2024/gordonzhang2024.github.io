@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gordon Zhang's blog</title><link>https://gordonzhang2024.github.io/</link><description>This is Gordon Zhang's blog.</description><atom:link href="https://gordonzhang2024.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2024 &lt;a href="mailto:jp20171211@163.com"&gt;Gordon Zhang&lt;/a&gt; </copyright><lastBuildDate>Sat, 01 Jun 2024 23:25:29 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Welcome!</title><link>https://gordonzhang2024.github.io/posts/welcome/</link><dc:creator>Gordon Zhang</dc:creator><description>&lt;h2&gt;Welcome!&lt;/h2&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gordon Zhang's blog</title><link>https://gordonzhang2024.github.io/</link><description>This is Gordon Zhang's blog.</description><atom:link href="https://gordonzhang2024.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2024 &lt;a href="mailto:jp20171211@163.com"&gt;Gordon Zhang&lt;/a&gt; </copyright><lastBuildDate>Sun, 02 Jun 2024 00:26:59 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Introduction to tkMarker: Efficient and Elegant Markdown Editor</title><link>https://gordonzhang2024.github.io/posts/introduction-to-tkmarker-efficient-and-elegant-markdown-editor/</link><dc:creator>Gordon Zhang</dc:creator><description>&lt;p&gt;[GitHub - GordonZhang2024/tkMarker: A Markdown editor using Tkinter](&lt;a class="reference external" href="https://github.com/GordonZhang2024/tkMarker"&gt;https://github.com/GordonZhang2024/tkMarker&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;I am excited to introduce my latest project - tkMarker. tkMarker is an open-source Markdown editor written in Python and tkinter, designed to provide users with an efficient and visually pleasing editing experience. It uses the MIT License.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;tkMarker is a Markdown editor that focuses on user experience, with the following features:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Fast Speed:&lt;/strong&gt; tkMarker adopts efficient algorithms and optimization strategies to ensure you can smoothly edit and preview Markdown documents without waiting. Tested under extremely slow disk read/write speeds, tkMarker still launches within 2 seconds, while other similar products (such as apostrophe) require 10 seconds.
+&lt;strong&gt;Clean and Beautiful Interface:&lt;/strong&gt; We focus on the design of the user interface. tkMarker's interface is clean and beautiful, without redundant functions, allowing you to focus on writing.
+&lt;strong&gt;Real-time Preview:&lt;/strong&gt; You can instantly view the rendering effect of Markdown text in tkMarker's real-time preview window, making it easy to adjust and modify.
+&lt;strong&gt;Custom Themes Support:&lt;/strong&gt; In the future, tkMarker will provide various built-in themes and also support user-customized themes, allowing you to customize the appearance of the editor according to your personal preferences.
+&lt;strong&gt;Lightweight:&lt;/strong&gt; tkMarker is a lightweight Markdown editor (only 700 lines of core code). Its markdown preview uses your browser instead of embedding a browser window in the page (which would make it very large), meaning its Markdown preview speed is very fast.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How to Use&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Using tkMarker is very simple, just follow these steps:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;&lt;p&gt;Download a Release from GitHub and install tkMarker according to the instructions in README.md.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In the future, I may release a Binary version that does not require manual building.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Open the tkMarker editor using the tkmarker command or desktop icon.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Create or open your Markdown document.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Start editing your document using Markdown syntax for markup and formatting.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;View the rendering effect in the real-time preview window and adjust as needed.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;After editing, save the document and share your work!&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Contributions and Feedback&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;tkMarker is an open-source project, and we welcome your contributions and feedback. If you encounter any issues or have any suggestions, please report them to us via GitHub Issue. You can also participate in the development of the project by Forking and submitting Pull Requests.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If you are looking for an efficient and visually pleasing Markdown editor, I sincerely recommend you to try tkMarker. It will provide you with a smooth editing experience and excellent rendering effects, making writing more enjoyable and simple.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Download Links:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;[GitHub - GordonZhang2024/tkMarker: A Markdown editor using Tkinter](&lt;a class="reference external" href="https://github.com/GordonZhang2024/tkMarker"&gt;https://github.com/GordonZhang2024/tkMarker&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Additionally, here is the link to my personal website:&lt;/p&gt;
+&lt;p&gt;[Gordon Zhang's website](&lt;a class="reference external" href="https://gordonzhang.pythonanywhere.com/"&gt;https://gordonzhang.pythonanywhere.com/&lt;/a&gt;)&lt;/p&gt;</description><guid>https://gordonzhang2024.github.io/posts/introduction-to-tkmarker-efficient-and-elegant-markdown-editor/</guid><pubDate>Sun, 02 Jun 2024 00:25:42 GMT</pubDate></item><item><title>Welcome!</title><link>https://gordonzhang2024.github.io/posts/welcome/</link><dc:creator>Gordon Zhang</dc:creator><description>&lt;h2&gt;Welcome!&lt;/h2&gt;
 &lt;h3&gt;About me&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://gordonzhang.pythonanywhere.com/"&gt;My main website&lt;/a&gt;&lt;/li&gt;
