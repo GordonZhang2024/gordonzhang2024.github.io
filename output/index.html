@@ -11,7 +11,7 @@
 <meta name="generator" content="Nikola (getnikola.com)">
 <link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="rss.xml">
 <link rel="canonical" href="https://gordonzhang2024.github.io/">
-<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/introduction-to-tkmarker-efficient-and-elegant-markdown-editor/" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/how-to-install-hyprland-on-fedora-linux/" type="text/html">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -75,14 +75,66 @@
     
         
     <div class="postindex">
-            <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/introduction-to-tkmarker-efficient-and-elegant-markdown-editor/" class="u-url">Introduction to tkMarker: Efficient and Elegant Markdown Editor</a></h1>
+            <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/how-to-install-hyprland-on-fedora-linux/" class="u-url">How to install hyprland on Fedora Linux</a></h1>
+                <div class="metadata">
+                    <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                        Gordon Zhang
+                    </span></p>
+            <p class="dateline">
+            <a href="posts/how-to-install-hyprland-on-fedora-linux/" rel="bookmark">
+            <time class="published dt-published" datetime="2024-06-02T09:31:21Z" itemprop="datePublished" title="2024-06-02 09:31">2024-06-02 09:31</time></a>
+            </p>
+                        <p class="commentline">
+    
+        <a href="posts/how-to-install-hyprland-on-fedora-linux/#isso-thread">Comments</a>
+
+
+                </p>
+</div>
+            </header><div class="e-content entry-content">
+                    <h2>How to install hyprland on Fedora Linux</h2>
+<p><a href="https://hyprland.org/">Hyprland</a> is a famous tiling window mananger.
+It has earned more than 14k stars on GitHub.</p>
+<p>This passage will tell you how to install it on Fedora.</p>
+<h3>Installation</h3>
+<p>Use dnf to install it:</p>
+<div class="code"><pre class="code literal-block">$<span class="w"> </span>sudo<span class="w"> </span>dnf<span class="w"> </span>install<span class="w"> </span>hyprland<span class="w"> </span>kitty
+</pre></div>
+
+<p><em>Kitty is a terminal. you'll need it when using hyprland.</em>
+When the installation is completed, let's try it.</p>
+<h3>Try</h3>
+<p>First, switch to a tty of your machine. For example, <code>ctrl+alt+F3</code> will switch to tty3.
+Enter your username and password, then you will see the bash console.
+Next, type command:</p>
+<div class="code"><pre class="code literal-block">$<span class="w"> </span>Hyprland
+</pre></div>
+
+<p>You will see hyprland in a few seconds.</p>
+<p>But you will also see a warning. It will tell you that you are using a default config file.
+It will also tell you some keyboard shortcuts. You can try them.</p>
+<h3>How to disable the warning</h3>
+<p>Use any editor to edit the config file which is shown in the warning(for example, <code>~/.config/hypr/hyprland.conf</code>,
+ You will see a line that says something like <code>delete this line to disable the warning.</code></p>
+<p>Just delete this line!</p>
+<h3>Configuration</h3>
+<p>You need to follow <a href="https://wiki.hyprland.org/Configuring/Configuring-Hyprland/">hyprland wiki</a></p>
+<blockquote>
+<p>Important
+Some Hyprland plugins only supports Arch based Linux Distributions or nixos.</p>
+</blockquote>
+<h3>That's all</h3>
+<p>You have sucessfully installed hyprland.
+<strong>I hope you can enjoy using it :)</strong></p>
+                </div>
+            </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/introduction-to-tkmarker-efficient-and-elegant-markdown-editor/" class="u-url">Introduction to tkMarker - efficient and elegant markdown editor</a></h1>
                 <div class="metadata">
                     <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                         Gordon Zhang
                     </span></p>
             <p class="dateline">
             <a href="posts/introduction-to-tkmarker-efficient-and-elegant-markdown-editor/" rel="bookmark">
-            <time class="published dt-published" datetime="2024-06-02T00:25:42Z" itemprop="datePublished" title="2024-06-02 00:25">2024-06-02 00:25</time></a>
+            <time class="published dt-published" datetime="2024-06-02T09:22:44Z" itemprop="datePublished" title="2024-06-02 09:22">2024-06-02 09:22</time></a>
             </p>
                         <p class="commentline">
     
@@ -92,35 +144,39 @@
                 </p>
 </div>
             </header><div class="e-content entry-content">
-                    <p>[GitHub - GordonZhang2024/tkMarker: A Markdown editor using Tkinter](<a class="reference external" href="https://github.com/GordonZhang2024/tkMarker">https://github.com/GordonZhang2024/tkMarker</a>)</p>
-<p>I am excited to introduce my latest project - tkMarker. tkMarker is an open-source Markdown editor written in Python and tkinter, designed to provide users with an efficient and visually pleasing editing experience. It uses the MIT License.</p>
-<p><strong>Introduction</strong></p>
-<p>tkMarker is a Markdown editor that focuses on user experience, with the following features:</p>
-<p><strong>Fast Speed:</strong> tkMarker adopts efficient algorithms and optimization strategies to ensure you can smoothly edit and preview Markdown documents without waiting. Tested under extremely slow disk read/write speeds, tkMarker still launches within 2 seconds, while other similar products (such as apostrophe) require 10 seconds.
-<strong>Clean and Beautiful Interface:</strong> We focus on the design of the user interface. tkMarker's interface is clean and beautiful, without redundant functions, allowing you to focus on writing.
-<strong>Real-time Preview:</strong> You can instantly view the rendering effect of Markdown text in tkMarker's real-time preview window, making it easy to adjust and modify.
-<strong>Custom Themes Support:</strong> In the future, tkMarker will provide various built-in themes and also support user-customized themes, allowing you to customize the appearance of the editor according to your personal preferences.
-<strong>Lightweight:</strong> tkMarker is a lightweight Markdown editor (only 700 lines of core code). Its markdown preview uses your browser instead of embedding a browser window in the page (which would make it very large), meaning its Markdown preview speed is very fast.</p>
-<p><strong>How to Use</strong></p>
-<p>Using tkMarker is very simple, just follow these steps:</p>
+                    <p>I am excited to introduce my latest project - tkMarker. tkMarker is an open-source Markdown editor written in Python and tkinter, aimed at providing users with an efficient and visually pleasing editing experience. It utilizes the MIT License.</p>
+<section id="introduction"><h2>Introduction</h2>
+<p>tkMarker is a Markdown editor focused on enhancing user experience, featuring:</p>
+<ul class="simple">
+<li><p>Fast Speed: tkMarker employs efficient algorithms and optimization strategies to ensure smooth editing and previewing of Markdown documents. Even tested under extremely slow disk read/write speeds, tkMarker still launches within 2 seconds, outperforming similar products like apostrophe, which require 10 seconds.</p></li>
+<li><p>Clean and Beautiful Interface: We pay attention to the design of the user interface. tkMarker's interface is clean and beautiful, without unnecessary functions, allowing users to concentrate on writing.</p></li>
+<li><p>Real-time Preview: Users can instantly view the rendering effect of Markdown text in tkMarker's real-time preview window, facilitating easy adjustments and modifications.</p></li>
+<li><p>Custom Themes Support: In future updates, tkMarker will offer various built-in themes and support for user-customized themes, allowing users to personalize the editor's appearance according to their preferences.</p></li>
+<li><p>Lightweight: tkMarker is a lightweight Markdown editor, consisting of only 700 lines of core code. Its Markdown preview uses the browser instead of embedding a browser window in the page, ensuring very fast preview speeds.</p></li>
+</ul></section><section id="how-to-use"><h2>How to Use</h2>
+<p>Using tkMarker is straightforward. Just follow these steps:</p>
 <ol class="arabic simple">
-<li><p>Download a Release from GitHub and install tkMarker according to the instructions in README.md.</p></li>
-<li><p>In the future, I may release a Binary version that does not require manual building.</p></li>
-<li><p>Open the tkMarker editor using the tkmarker command or desktop icon.</p></li>
-<li><p>Create or open your Markdown document.</p></li>
-<li><p>Start editing your document using Markdown syntax for markup and formatting.</p></li>
-<li><p>View the rendering effect in the real-time preview window and adjust as needed.</p></li>
-<li><p>After editing, save the document and share your work!</p></li>
-</ol>
-<p><strong>Contributions and Feedback</strong></p>
-<p>tkMarker is an open-source project, and we welcome your contributions and feedback. If you encounter any issues or have any suggestions, please report them to us via GitHub Issue. You can also participate in the development of the project by Forking and submitting Pull Requests.</p>
-<p><strong>Conclusion</strong></p>
-<p>If you are looking for an efficient and visually pleasing Markdown editor, I sincerely recommend you to try tkMarker. It will provide you with a smooth editing experience and excellent rendering effects, making writing more enjoyable and simple.</p>
-<p><strong>Download Links:</strong></p>
-<p>[GitHub - GordonZhang2024/tkMarker: A Markdown editor using Tkinter](<a class="reference external" href="https://github.com/GordonZhang2024/tkMarker">https://github.com/GordonZhang2024/tkMarker</a>)</p>
-<p>Additionally, here is the link to my personal website:</p>
-<p>[Gordon Zhang's website](<a class="reference external" href="https://gordonzhang.pythonanywhere.com/">https://gordonzhang.pythonanywhere.com/</a>)</p>
-                </div>
+<li><p>Download and Install: Obtain a release from GitHub and install tkMarker following the instructions in README.md.</p></li>
+<li><p>Launch tkMarker: Use the <cite>tkmarker</cite> command or desktop icon.</p></li>
+<li><p>Create or Open Document: Begin your Markdown editing journey.</p></li>
+<li><p>Edit: Utilize Markdown syntax for markup and formatting.</p></li>
+<li><p>Real-time Preview: Visualize changes instantly in the preview window.</p></li>
+<li><p>Save and Share: Preserve and share your work!</p></li>
+</ol></section><section id="contributions-and-feedback"><h2>Contributions and Feedback</h2>
+<p>tkMarker is an open-source project, and we welcome contributions and feedback from the community. If you encounter any issues or have suggestions, please report them via GitHub Issues. You can also contribute to the project by forking and submitting pull requests.</p>
+</section><section id="conclusion"><h2>Conclusion</h2>
+<p>For an efficient and visually pleasing Markdown editing experience, I highly recommend trying tkMarker. It offers a smooth editing experience and excellent rendering effects, making writing more enjoyable and simple.</p>
+</section><section id="download-links"><h2>Download Links</h2>
+<ul class="simple">
+<li><p>GitHub - GordonZhang2024/tkMarker: A Markdown editor using Tkinter
+<a class="reference external" href="https://github.com/GordonZhang2024/tkMarker">https://github.com/GordonZhang2024/tkMarker</a></p></li>
+</ul>
+<p>Additionally, feel free to visit my personal website:</p>
+<ul class="simple">
+<li><p>Gordon Zhang's website
+<a class="reference external" href="https://gordonzhang.pythonanywhere.com/">https://gordonzhang.pythonanywhere.com/</a></p></li>
+</ul></section>
+</div>
             </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/welcome/" class="u-url">Welcome!</a></h1>
                 <div class="metadata">
                     <p class="byline author vcard"><span class="byline-name fn" itemprop="author">

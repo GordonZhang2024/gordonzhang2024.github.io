@@ -1,0 +1,34 @@
+<h1>How to install hyprland on Fedora Linux</h1>
+<p><a href="https://hyprland.org/">Hyprland</a> is a famous tiling window mananger.
+It has earned more than 14k stars on GitHub.</p>
+<p>This passage will tell you how to install it on Fedora.</p>
+<h2>Installation</h2>
+<p>Use dnf to install it:</p>
+<div class="code"><pre class="code literal-block">$<span class="w"> </span>sudo<span class="w"> </span>dnf<span class="w"> </span>install<span class="w"> </span>hyprland<span class="w"> </span>kitty
+</pre></div>
+
+<p><em>Kitty is a terminal. you'll need it when using hyprland.</em>
+When the installation is completed, let's try it.</p>
+<h2>Try</h2>
+<p>First, switch to a tty of your machine. For example, <code>ctrl+alt+F3</code> will switch to tty3.
+Enter your username and password, then you will see the bash console.
+Next, type command:</p>
+<div class="code"><pre class="code literal-block">$<span class="w"> </span>Hyprland
+</pre></div>
+
+<p>You will see hyprland in a few seconds.</p>
+<p>But you will also see a warning. It will tell you that you are using a default config file.
+It will also tell you some keyboard shortcuts. You can try them.</p>
+<h2>How to disable the warning</h2>
+<p>Use any editor to edit the config file which is shown in the warning(for example, <code>~/.config/hypr/hyprland.conf</code>,
+ You will see a line that says something like <code>delete this line to disable the warning.</code></p>
+<p>Just delete this line!</p>
+<h2>Configuration</h2>
+<p>You need to follow <a href="https://wiki.hyprland.org/Configuring/Configuring-Hyprland/">hyprland wiki</a></p>
+<blockquote>
+<p>Important
+Some Hyprland plugins only supports Arch based Linux Distributions or nixos.</p>
+</blockquote>
+<h2>That's all</h2>
+<p>You have sucessfully installed hyprland.
+<strong>I hope you can enjoy using it :)</strong></p>
