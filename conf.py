@@ -152,11 +152,17 @@ NAVIGATION_LINKS = {
 # although themes may not always support them. (translatable)
 # (Bootstrap 4: right-side of navbar, Bootblog 4: right side of title)
 NAVIGATION_ALT_LINKS = {
-    DEFAULT_LANG: ()
+    DEFAULT_LANG: (
+        ("https://github.com/GordonZhang2024", "GitHub"),
+    ),
 }
 
 # Name of the theme to use.
-THEME = "bootblog4"
+THEME = "material-theme"
+GLOBAL_CONTEXT = {
+     'header_color': 'default'
+}
+
 
 # A theme color. In default themes, it might be displayed by some browsers as
 # the browser UI color (eg. Chrome on Android). Other themes might also use it

@@ -7,6 +7,8 @@ jobs:
     steps:
     - name: Check out
       uses: actions/checkout@v2
+    - name: Install theme
+      uses: nikola theme -i material-theme
     - name: Build and Deploy Nikola
       uses: getnikola/nikola-action@v4
       with:
