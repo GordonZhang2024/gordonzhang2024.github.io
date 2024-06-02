@@ -1,32 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gordon Zhang's blog</title><link>https://gordonzhang2024.github.io/</link><description>This is Gordon Zhang's blog.</description><atom:link href="https://gordonzhang2024.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2024 &lt;a href="mailto:jp20171211@163.com"&gt;Gordon Zhang&lt;/a&gt; </copyright><lastBuildDate>Sun, 02 Jun 2024 00:26:59 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Introduction to tkMarker: Efficient and Elegant Markdown Editor</title><link>https://gordonzhang2024.github.io/posts/introduction-to-tkmarker-efficient-and-elegant-markdown-editor/</link><dc:creator>Gordon Zhang</dc:creator><description>&lt;p&gt;[GitHub - GordonZhang2024/tkMarker: A Markdown editor using Tkinter](&lt;a class="reference external" href="https://github.com/GordonZhang2024/tkMarker"&gt;https://github.com/GordonZhang2024/tkMarker&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;I am excited to introduce my latest project - tkMarker. tkMarker is an open-source Markdown editor written in Python and tkinter, designed to provide users with an efficient and visually pleasing editing experience. It uses the MIT License.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;tkMarker is a Markdown editor that focuses on user experience, with the following features:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Fast Speed:&lt;/strong&gt; tkMarker adopts efficient algorithms and optimization strategies to ensure you can smoothly edit and preview Markdown documents without waiting. Tested under extremely slow disk read/write speeds, tkMarker still launches within 2 seconds, while other similar products (such as apostrophe) require 10 seconds.
-&lt;strong&gt;Clean and Beautiful Interface:&lt;/strong&gt; We focus on the design of the user interface. tkMarker's interface is clean and beautiful, without redundant functions, allowing you to focus on writing.
-&lt;strong&gt;Real-time Preview:&lt;/strong&gt; You can instantly view the rendering effect of Markdown text in tkMarker's real-time preview window, making it easy to adjust and modify.
-&lt;strong&gt;Custom Themes Support:&lt;/strong&gt; In the future, tkMarker will provide various built-in themes and also support user-customized themes, allowing you to customize the appearance of the editor according to your personal preferences.
-&lt;strong&gt;Lightweight:&lt;/strong&gt; tkMarker is a lightweight Markdown editor (only 700 lines of core code). Its markdown preview uses your browser instead of embedding a browser window in the page (which would make it very large), meaning its Markdown preview speed is very fast.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;How to Use&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Using tkMarker is very simple, just follow these steps:&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gordon Zhang's blog</title><link>https://gordonzhang2024.github.io/</link><description>This is Gordon Zhang's blog.</description><atom:link href="https://gordonzhang2024.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2024 &lt;a href="mailto:jp20171211@163.com"&gt;Gordon Zhang&lt;/a&gt; </copyright><lastBuildDate>Sun, 02 Jun 2024 09:48:10 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>How to install hyprland on Fedora Linux</title><link>https://gordonzhang2024.github.io/posts/how-to-install-hyprland-on-fedora-linux/</link><dc:creator>Gordon Zhang</dc:creator><description>&lt;h2&gt;How to install hyprland on Fedora Linux&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://hyprland.org/"&gt;Hyprland&lt;/a&gt; is a famous tiling window mananger.
+It has earned more than 14k stars on GitHub.&lt;/p&gt;
+&lt;p&gt;This passage will tell you how to install it on Fedora.&lt;/p&gt;
+&lt;h3&gt;Installation&lt;/h3&gt;
+&lt;p&gt;Use dnf to install it:&lt;/p&gt;
+&lt;div class="code"&gt;&lt;pre class="code literal-block"&gt;$&lt;span class="w"&gt; &lt;/span&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;dnf&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;hyprland&lt;span class="w"&gt; &lt;/span&gt;kitty
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;Kitty is a terminal. you'll need it when using hyprland.&lt;/em&gt;
+When the installation is completed, let's try it.&lt;/p&gt;
+&lt;h3&gt;Try&lt;/h3&gt;
+&lt;p&gt;First, switch to a tty of your machine. For example, &lt;code&gt;ctrl+alt+F3&lt;/code&gt; will switch to tty3.
+Enter your username and password, then you will see the bash console.
+Next, type command:&lt;/p&gt;
+&lt;div class="code"&gt;&lt;pre class="code literal-block"&gt;$&lt;span class="w"&gt; &lt;/span&gt;Hyprland
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;You will see hyprland in a few seconds.&lt;/p&gt;
+&lt;p&gt;But you will also see a warning. It will tell you that you are using a default config file.
+It will also tell you some keyboard shortcuts. You can try them.&lt;/p&gt;
+&lt;h3&gt;How to disable the warning&lt;/h3&gt;
+&lt;p&gt;Use any editor to edit the config file which is shown in the warning(for example, &lt;code&gt;~/.config/hypr/hyprland.conf&lt;/code&gt;,
+ You will see a line that says something like &lt;code&gt;delete this line to disable the warning.&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Just delete this line!&lt;/p&gt;
+&lt;h3&gt;Configuration&lt;/h3&gt;
+&lt;p&gt;You need to follow &lt;a href="https://wiki.hyprland.org/Configuring/Configuring-Hyprland/"&gt;hyprland wiki&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Important
+Some Hyprland plugins only supports Arch based Linux Distributions or nixos.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;That's all&lt;/h3&gt;
+&lt;p&gt;You have sucessfully installed hyprland.
+&lt;strong&gt;I hope you can enjoy using it :)&lt;/strong&gt;&lt;/p&gt;</description><guid>https://gordonzhang2024.github.io/posts/how-to-install-hyprland-on-fedora-linux/</guid><pubDate>Sun, 02 Jun 2024 09:31:21 GMT</pubDate></item><item><title>Introduction to tkMarker - efficient and elegant markdown editor</title><link>https://gordonzhang2024.github.io/posts/introduction-to-tkmarker-efficient-and-elegant-markdown-editor/</link><dc:creator>Gordon Zhang</dc:creator><description>&lt;p&gt;I am excited to introduce my latest project - tkMarker. tkMarker is an open-source Markdown editor written in Python and tkinter, aimed at providing users with an efficient and visually pleasing editing experience. It utilizes the MIT License.&lt;/p&gt;
+&lt;section id="introduction"&gt;
+&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;tkMarker is a Markdown editor focused on enhancing user experience, featuring:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;Fast Speed: tkMarker employs efficient algorithms and optimization strategies to ensure smooth editing and previewing of Markdown documents. Even tested under extremely slow disk read/write speeds, tkMarker still launches within 2 seconds, outperforming similar products like apostrophe, which require 10 seconds.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Clean and Beautiful Interface: We pay attention to the design of the user interface. tkMarker's interface is clean and beautiful, without unnecessary functions, allowing users to concentrate on writing.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Real-time Preview: Users can instantly view the rendering effect of Markdown text in tkMarker's real-time preview window, facilitating easy adjustments and modifications.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Custom Themes Support: In future updates, tkMarker will offer various built-in themes and support for user-customized themes, allowing users to personalize the editor's appearance according to their preferences.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Lightweight: tkMarker is a lightweight Markdown editor, consisting of only 700 lines of core code. Its Markdown preview uses the browser instead of embedding a browser window in the page, ensuring very fast preview speeds.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section id="how-to-use"&gt;
+&lt;h2&gt;How to Use&lt;/h2&gt;
+&lt;p&gt;Using tkMarker is straightforward. Just follow these steps:&lt;/p&gt;
 &lt;ol class="arabic simple"&gt;
-&lt;li&gt;&lt;p&gt;Download a Release from GitHub and install tkMarker according to the instructions in README.md.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;In the future, I may release a Binary version that does not require manual building.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Open the tkMarker editor using the tkmarker command or desktop icon.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Create or open your Markdown document.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Start editing your document using Markdown syntax for markup and formatting.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;View the rendering effect in the real-time preview window and adjust as needed.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;After editing, save the document and share your work!&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Download and Install: Obtain a release from GitHub and install tkMarker following the instructions in README.md.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Launch tkMarker: Use the &lt;cite&gt;tkmarker&lt;/cite&gt; command or desktop icon.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Create or Open Document: Begin your Markdown editing journey.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Edit: Utilize Markdown syntax for markup and formatting.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Real-time Preview: Visualize changes instantly in the preview window.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Save and Share: Preserve and share your work!&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;Contributions and Feedback&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;tkMarker is an open-source project, and we welcome your contributions and feedback. If you encounter any issues or have any suggestions, please report them to us via GitHub Issue. You can also participate in the development of the project by Forking and submitting Pull Requests.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;If you are looking for an efficient and visually pleasing Markdown editor, I sincerely recommend you to try tkMarker. It will provide you with a smooth editing experience and excellent rendering effects, making writing more enjoyable and simple.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Download Links:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;[GitHub - GordonZhang2024/tkMarker: A Markdown editor using Tkinter](&lt;a class="reference external" href="https://github.com/GordonZhang2024/tkMarker"&gt;https://github.com/GordonZhang2024/tkMarker&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;Additionally, here is the link to my personal website:&lt;/p&gt;
-&lt;p&gt;[Gordon Zhang's website](&lt;a class="reference external" href="https://gordonzhang.pythonanywhere.com/"&gt;https://gordonzhang.pythonanywhere.com/&lt;/a&gt;)&lt;/p&gt;</description><guid>https://gordonzhang2024.github.io/posts/introduction-to-tkmarker-efficient-and-elegant-markdown-editor/</guid><pubDate>Sun, 02 Jun 2024 00:25:42 GMT</pubDate></item><item><title>Welcome!</title><link>https://gordonzhang2024.github.io/posts/welcome/</link><dc:creator>Gordon Zhang</dc:creator><description>&lt;h2&gt;Welcome!&lt;/h2&gt;
+&lt;/section&gt;
+&lt;section id="contributions-and-feedback"&gt;
+&lt;h2&gt;Contributions and Feedback&lt;/h2&gt;
+&lt;p&gt;tkMarker is an open-source project, and we welcome contributions and feedback from the community. If you encounter any issues or have suggestions, please report them via GitHub Issues. You can also contribute to the project by forking and submitting pull requests.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="conclusion"&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;For an efficient and visually pleasing Markdown editing experience, I highly recommend trying tkMarker. It offers a smooth editing experience and excellent rendering effects, making writing more enjoyable and simple.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="download-links"&gt;
+&lt;h2&gt;Download Links&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;GitHub - GordonZhang2024/tkMarker: A Markdown editor using Tkinter
+&lt;a class="reference external" href="https://github.com/GordonZhang2024/tkMarker"&gt;https://github.com/GordonZhang2024/tkMarker&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Additionally, feel free to visit my personal website:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;Gordon Zhang's website
+&lt;a class="reference external" href="https://gordonzhang.pythonanywhere.com/"&gt;https://gordonzhang.pythonanywhere.com/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;</description><guid>https://gordonzhang2024.github.io/posts/introduction-to-tkmarker-efficient-and-elegant-markdown-editor/</guid><pubDate>Sun, 02 Jun 2024 09:22:44 GMT</pubDate></item><item><title>Welcome!</title><link>https://gordonzhang2024.github.io/posts/welcome/</link><dc:creator>Gordon Zhang</dc:creator><description>&lt;h2&gt;Welcome!&lt;/h2&gt;
 &lt;h3&gt;About me&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://gordonzhang.pythonanywhere.com/"&gt;My main website&lt;/a&gt;&lt;/li&gt;
