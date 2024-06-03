@@ -34,7 +34,7 @@ $ Hyprland
 You will see hyprland in a few seconds.
 
 But you will also see a warning. It will tell you that you are using a default config file.
-It will also tell you some keyboard shortcuts. You can try them.
+It will also tell you some keyboard shortcuts. You can try these keyboard shortcuts.
 ## How to disable the warning
 Use any editor to edit the config file which is shown in the warning(for example, `~/.config/hypr/hyprland.conf`,
  You will see a line that says something like `delete this line to disable the warning.`
