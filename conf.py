@@ -29,7 +29,7 @@ BLOG_DESCRIPTION = "This is Gordon Zhang's blog."  # (translatable)
 
 # Nikola is multilingual!
 #
-# Currently supported languages are:
+# Currently;; supported languages are:
 #
 # en        English
 # af        Afrikaans
@@ -158,7 +158,7 @@ NAVIGATION_ALT_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "material-theme"
+THEME = "bootblog4"
 GLOBAL_CONTEXT = {
      'header_color': 'default'
 }
@@ -715,7 +715,7 @@ GITHUB_COMMIT_SOURCE = True
 #
 # A string containing a '%s' which will
 # be replaced with a filename. The command *must* produce output
-# in place.
+# in place.;;;;;;;;11::
 #
 # Or:
 #
