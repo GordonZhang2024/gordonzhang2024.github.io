@@ -19,7 +19,15 @@
  </url>
  <url>
   <loc>https://gordonzhang2024.github.io/categories/</loc>
-  <lastmod>2024-06-01T23:25:00Z</lastmod>
+  <lastmod>2024-06-25T01:59:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://gordonzhang2024.github.io/categories/linux/</loc>
+  <lastmod>2024-06-25T01:59:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://gordonzhang2024.github.io/categories/welcome/</loc>
+  <lastmod>2024-06-25T01:59:00Z</lastmod>
  </url>
  <url>
   <loc>https://gordonzhang2024.github.io/galleries/</loc>
@@ -40,6 +48,10 @@
  <url>
   <loc>https://gordonzhang2024.github.io/listings/hello.py.html</loc>
   <lastmod>2024-06-03T12:29:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://gordonzhang2024.github.io/pages/about-me/</loc>
+  <lastmod>2024-06-25T01:59:00Z</lastmod>
  </url>
  <url>
   <loc>https://gordonzhang2024.github.io/pages/about-nikola/</loc>
@@ -104,10 +116,6 @@
  <url>
   <loc>https://gordonzhang2024.github.io/posts/how-to-install-hyprland-on-fedora-linux/</loc>
   <lastmod>2024-06-02T09:48:00Z</lastmod>
- </url>
- <url>
-  <loc>https://gordonzhang2024.github.io/posts/introduction-to-tkmarker-efficient-and-elegant-markdown-editor/</loc>
-  <lastmod>2024-06-02T00:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://gordonzhang2024.github.io/posts/welcome/</loc>

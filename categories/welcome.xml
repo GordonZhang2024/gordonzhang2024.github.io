@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gordon Zhang's blog (Posts about welcome)</title><link>https://gordonzhang2024.github.io/</link><description></description><atom:link href="https://gordonzhang2024.github.io/categories/welcome.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2024 &lt;a href="mailto:jp20171211@163.com"&gt;Gordon Zhang&lt;/a&gt; </copyright><lastBuildDate>Tue, 25 Jun 2024 01:59:19 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Welcome!</title><link>https://gordonzhang2024.github.io/posts/welcome/</link><dc:creator>Gordon Zhang</dc:creator><description>&lt;h2&gt;Welcome!&lt;/h2&gt;
+&lt;h3&gt;About me&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://gordonzhang.pythonanywhere.com/"&gt;My main website&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I'm a junior full-stack developer.&lt;/p&gt;</description><category>welcome</category><guid>https://gordonzhang2024.github.io/posts/welcome/</guid><pubDate>Sat, 01 Jun 2024 23:17:03 GMT</pubDate></item></channel></rss>

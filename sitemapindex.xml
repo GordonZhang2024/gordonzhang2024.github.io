@@ -6,6 +6,14 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
+  <loc>https://gordonzhang2024.github.io/categories/linux.xml</loc>
+  <lastmod>2024-06-25T01:59:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://gordonzhang2024.github.io/categories/welcome.xml</loc>
+  <lastmod>2024-06-25T01:59:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://gordonzhang2024.github.io/galleries/demo/rss.xml</loc>
   <lastmod>2024-06-03T12:29:00Z</lastmod>
  </sitemap>
@@ -15,10 +23,10 @@
  </sitemap>
  <sitemap>
   <loc>https://gordonzhang2024.github.io/rss.xml</loc>
-  <lastmod>2024-06-23T04:23:00Z</lastmod>
+  <lastmod>2024-06-25T01:59:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://gordonzhang2024.github.io/sitemap.xml</loc>
-  <lastmod>2024-06-23T04:23:00Z</lastmod>
+  <lastmod>2024-06-25T01:59:00Z</lastmod>
  </sitemap>
 </sitemapindex>

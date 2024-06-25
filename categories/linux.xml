@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gordon Zhang's blog</title><link>https://gordonzhang2024.github.io/</link><description>This is Gordon Zhang's blog.</description><atom:link href="https://gordonzhang2024.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2024 &lt;a href="mailto:jp20171211@163.com"&gt;Gordon Zhang&lt;/a&gt; </copyright><lastBuildDate>Tue, 25 Jun 2024 01:59:18 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>How to install Hyprland on Fedora Linux</title><link>https://gordonzhang2024.github.io/posts/how-to-install-hyprland-on-fedora-linux/</link><dc:creator>Gordon Zhang</dc:creator><description>&lt;h2&gt;How to install Hyprland on Fedora Linux&lt;/h2&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gordon Zhang's blog (Posts about Linux)</title><link>https://gordonzhang2024.github.io/</link><description></description><atom:link href="https://gordonzhang2024.github.io/categories/linux.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2024 &lt;a href="mailto:jp20171211@163.com"&gt;Gordon Zhang&lt;/a&gt; </copyright><lastBuildDate>Tue, 25 Jun 2024 01:59:18 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>How to install Hyprland on Fedora Linux</title><link>https://gordonzhang2024.github.io/posts/how-to-install-hyprland-on-fedora-linux/</link><dc:creator>Gordon Zhang</dc:creator><description>&lt;h2&gt;How to install Hyprland on Fedora Linux&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://hyprland.org/"&gt;Hyprland&lt;/a&gt; is a famous tiling window mananger.
 It has earned more than 14k stars on GitHub.&lt;/p&gt;
 &lt;p&gt;This passage will tell you how to install it on Fedora.&lt;/p&gt;
@@ -32,9 +32,4 @@ Some Hyprland plugins only supports Arch based Linux Distributions or nixos.&lt;
 &lt;/blockquote&gt;
 &lt;h3&gt;That's all&lt;/h3&gt;
 &lt;p&gt;You have sucessfully installed hyprland.
-&lt;strong&gt;I hope you can enjoy using it :)&lt;/strong&gt;&lt;/p&gt;</description><category>Linux</category><guid>https://gordonzhang2024.github.io/posts/how-to-install-hyprland-on-fedora-linux/</guid><pubDate>Sun, 02 Jun 2024 09:31:21 GMT</pubDate></item><item><title>Welcome!</title><link>https://gordonzhang2024.github.io/posts/welcome/</link><dc:creator>Gordon Zhang</dc:creator><description>&lt;h2&gt;Welcome!&lt;/h2&gt;
-&lt;h3&gt;About me&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://gordonzhang.pythonanywhere.com/"&gt;My main website&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I'm a junior full-stack developer.&lt;/p&gt;</description><category>welcome</category><guid>https://gordonzhang2024.github.io/posts/welcome/</guid><pubDate>Sat, 01 Jun 2024 23:17:03 GMT</pubDate></item></channel></rss>
+&lt;strong&gt;I hope you can enjoy using it :)&lt;/strong&gt;&lt;/p&gt;</description><category>Linux</category><guid>https://gordonzhang2024.github.io/posts/how-to-install-hyprland-on-fedora-linux/</guid><pubDate>Sun, 02 Jun 2024 09:31:21 GMT</pubDate></item></channel></rss>
