@@ -1,15 +1,15 @@
 <!--
-.. title: How to install hyprland on Fedora Linux
+.. title: How to install Hyprland on Fedora Linux
 .. slug: how-to-install-hyprland-on-fedora-linux
 .. date: 2024-06-02 09:31:21 UTC
-.. tags: 
+.. tags: Linux
 .. category: 
 .. link: 
-.. description: 
+.. description: How to install Hyprland on Fedora Linux
 .. type: text
 -->
 
-# How to install hyprland on Fedora Linux
+# How to install Hyprland on Fedora Linux
 [Hyprland](https://hyprland.org/) is a famous tiling window mananger.
 It has earned more than 14k stars on GitHub.
 

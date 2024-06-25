@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gordon Zhang's blog (Posts about Linux)</title><link>https://gordonzhang2024.github.io/</link><description></description><atom:link href="https://gordonzhang2024.github.io/categories/linux.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2024 &lt;a href="mailto:jp20171211@163.com"&gt;Gordon Zhang&lt;/a&gt; </copyright><lastBuildDate>Tue, 25 Jun 2024 01:59:18 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>How to install Hyprland on Fedora Linux</title><link>https://gordonzhang2024.github.io/posts/how-to-install-hyprland-on-fedora-linux/</link><dc:creator>Gordon Zhang</dc:creator><description>&lt;h2&gt;How to install Hyprland on Fedora Linux&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://hyprland.org/"&gt;Hyprland&lt;/a&gt; is a famous tiling window mananger.
+It has earned more than 14k stars on GitHub.&lt;/p&gt;
+&lt;p&gt;This passage will tell you how to install it on Fedora.&lt;/p&gt;
+&lt;h3&gt;Installation&lt;/h3&gt;
+&lt;p&gt;Use dnf to install it:&lt;/p&gt;
+&lt;div class="code"&gt;&lt;pre class="code literal-block"&gt;$&lt;span class="w"&gt; &lt;/span&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;dnf&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;hyprland&lt;span class="w"&gt; &lt;/span&gt;kitty
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;Kitty is a terminal. you'll need it when using hyprland.&lt;/em&gt;
+When the installation is completed, let's try it.&lt;/p&gt;
+&lt;h3&gt;Try&lt;/h3&gt;
+&lt;p&gt;First, switch to a tty of your machine. For example, &lt;code&gt;ctrl+alt+F3&lt;/code&gt; will switch to tty3.
+Enter your username and password, then you will see the bash console.
+Next, type command:&lt;/p&gt;
+&lt;div class="code"&gt;&lt;pre class="code literal-block"&gt;$&lt;span class="w"&gt; &lt;/span&gt;Hyprland
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;You will see hyprland in a few seconds.&lt;/p&gt;
+&lt;p&gt;But you will also see a warning. It will tell you that you are using a default config file.
+It will also tell you some keyboard shortcuts. You can try these keyboard shortcuts.&lt;/p&gt;
+&lt;h3&gt;How to disable the warning&lt;/h3&gt;
+&lt;p&gt;Use any editor to edit the config file which is shown in the warning(for example, &lt;code&gt;~/.config/hypr/hyprland.conf&lt;/code&gt;,
+ You will see a line that says something like &lt;code&gt;delete this line to disable the warning.&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Just delete this line!&lt;/p&gt;
+&lt;h3&gt;Configuration&lt;/h3&gt;
+&lt;p&gt;You need to follow &lt;a href="https://wiki.hyprland.org/Configuring/Configuring-Hyprland/"&gt;hyprland wiki&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Important
+Some Hyprland plugins only supports Arch based Linux Distributions or nixos.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;That's all&lt;/h3&gt;
+&lt;p&gt;You have sucessfully installed hyprland.
+&lt;strong&gt;I hope you can enjoy using it :)&lt;/strong&gt;&lt;/p&gt;</description><category>Linux</category><guid>https://gordonzhang2024.github.io/posts/how-to-install-hyprland-on-fedora-linux/</guid><pubDate>Sun, 02 Jun 2024 09:31:21 GMT</pubDate></item></channel></rss>

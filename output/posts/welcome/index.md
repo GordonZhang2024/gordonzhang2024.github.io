@@ -2,10 +2,10 @@
 .. title: Welcome!
 .. slug: welcome
 .. date: 2024-06-01 23:17:03 UTC
-.. tags: 
+.. tags: welcome
 .. category: 
 .. link: 
-.. description: 
+.. description: Welcome to Gordon Zhang's blog!
 .. type: text
 -->
 
